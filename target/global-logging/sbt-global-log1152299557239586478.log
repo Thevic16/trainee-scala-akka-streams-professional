@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(33e9344d-bf97-40bd-9858-26a161ef49c5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 9 - akka_streams_professional/2-lightbend_akka_streams_for_scala_Professional/LTS-P-lightbend-akka-streams-for-scala-professional-v1/exercises/common/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/victor/Documents/dev/1-Software-Development/scala/trainee_program_scala/module 9 - akka_streams_professional/2-lightbend_akka_streams_for_scala_Professional/LTS-P-lightbend-akka-streams-for-scala-professional-v1/exercises/exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPaintShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcolors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should repeat each color in the color set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEngineShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mshipments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should emit a series of unique shipments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should emit unique engines from one shipment to the next[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWheelShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a series of wheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBodyShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return cars at the expected rate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 341 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 29 s, completed Dec 14, 2022, 5:51:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

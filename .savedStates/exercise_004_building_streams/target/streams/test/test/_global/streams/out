@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.EngineShopTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEngineShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mshipments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should emit a series of unique shipments[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should emit unique engines from one shipment to the next[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mengines[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should flatten the shipments into a series of unique engines[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minstallEngine[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should terminate if there are no cars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should install an engine in the car.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.BodyShopTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBodyShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return cars at the expected rate[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.WheelShopTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWheelShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a series of wheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minstallWheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should install four wheels on each car[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.AuditorTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuditorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcount[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return zero if the stream is empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count elements in the stream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlog[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should log nothing if the source is empty.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should log all elements to the logging adapter.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should log the exact element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msample[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should do nothing if the source is empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all elements if they appear within the sample period.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should ignore elements that appear outside the expected sample period.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.PaintShopTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPaintShopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcolors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should repeat each color in the color set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpaint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an error if there are no colors[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should terminate if there are no cars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the paint colors to the cars[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.lightbend.akkassembly.QualityAssuranceTest, org.scalatest.tools.Framework$$anon$1@233d372d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mQualityAssuranceTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Color[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Engine[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Wheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should accept cars that are complete[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 738 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 24[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 24, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.EngineShopTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.BodyShopTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.WheelShopTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.AuditorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.PaintShopTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.akkassembly.QualityAssuranceTest[0m
